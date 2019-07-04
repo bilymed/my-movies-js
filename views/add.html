@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card mx-auto" style="margin: 50px 30px; max-width: 38rem; ">
+        <div class="card-header text-white bg-primary">
+            Add Movie
+        </div>
+        <div class="card-body">
+            <form name="addMovieForm" ng-submit="add(movie)">
+                <div class="form-group">
+                    <label for="inputMovie">Movie</label>
+                    <input type="text" class="form-control" placeholder="Movie name" ng-model="movie.name">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Movie</button>
+            </form>
+        </div>
+    </div>
+</div>

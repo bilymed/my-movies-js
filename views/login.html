@@ -1,0 +1,21 @@
+<div class="container" >
+    <div class="card mx-auto" style="margin: 50px 30px; max-width: 38rem; ">
+        <div class="card-header text-white bg-primary">
+            Authentication
+        </div>
+        <div class="card-body">
+            <form name="loginForm" ng-submit="onLogin(user)">
+                <div class="form-group">
+                    <label for="inputUserName">Username</label>
+                    <input type="text" class="form-control" ng-model="user.username" placeholder="username">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword1">Password</label>
+                    <input type="password" class="form-control" ng-model="user.password" name="password" placeholder="password">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <a class="btn btn-success" href="#" role="button">Sign up</a>
+            </form>
+        </div>
+    </div>
+</div>
